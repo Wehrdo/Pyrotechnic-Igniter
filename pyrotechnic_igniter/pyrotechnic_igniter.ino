@@ -72,10 +72,10 @@ const int PIN_COUNT = 4; //Number of items in launchers[]
  //The third argument is the minimum pulse length to launch at. Reading from the
  //receiver, the values are usually between 1000-2000.
 Igniter launchers[] = {
-  Igniter(2, LIGHT_TIME, 1250), 
-  Igniter(3, LIGHT_TIME, 1500), 
-  Igniter(4, LIGHT_TIME, 1750), 
-  Igniter(5, LIGHT_TIME, 1990)
+  Igniter(2, LIGHT_TIME, 1294),
+  Igniter(3, LIGHT_TIME, 1484),
+  Igniter(4, LIGHT_TIME, 1674),
+  Igniter(5, LIGHT_TIME, 1864)
 };
 
 void setup() {
