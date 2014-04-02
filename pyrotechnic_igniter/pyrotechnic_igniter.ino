@@ -84,7 +84,7 @@ void setup() {
 
 void loop() {
   int pulse_len = pulseIn(SIG_PIN, HIGH);
-  //If the pulse is greater than 3 ms, most likely the radio was off
+  //If the pulse is greater than 3000 ms, most likely the radio was off
   if (pulse_len < 3000) {
     for (int i  = 0; i < PIN_COUNT; i++) {
       launchers[i].update();
